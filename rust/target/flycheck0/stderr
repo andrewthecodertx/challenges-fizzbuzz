@@ -1,0 +1,50 @@
+   0.039369734s  INFO prepare_target{force=false package_id=challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust) target="challenges_fizzbuzz"}: cargo::core::compiler::fingerprint: fingerprint error for challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("challenges_fizzbuzz", ["lib"], "/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust/src/lib.rs", Edition2021) }
+   0.039386214s  INFO prepare_target{force=false package_id=challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust) target="challenges_fizzbuzz"}: cargo::core::compiler::fingerprint:     err: failed to read `/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust/target/debug/.fingerprint/challenges-fizzbuzz-048f1eea35a9f73f/lib-challenges_fizzbuzz`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+   0.045732730s  INFO prepare_target{force=false package_id=challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust) target="challenges_fizzbuzz"}: cargo::core::compiler::fingerprint: fingerprint error for challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("challenges_fizzbuzz", ["lib"], "/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust/src/lib.rs", Edition2021) }
+   0.045744473s  INFO prepare_target{force=false package_id=challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust) target="challenges_fizzbuzz"}: cargo::core::compiler::fingerprint:     err: failed to read `/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust/target/debug/.fingerprint/challenges-fizzbuzz-b1f7589f91de0cdf/test-lib-challenges_fizzbuzz`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+    Checking challenges-fizzbuzz v0.1.0 (/mnt/internalssd/Projects/andrewthecoder.bak/challenges-fizzbuzz/rust)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.07s

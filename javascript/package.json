@@ -1,0 +1,11 @@
+{
+  "name": "challenges-fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz coding challenge",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
